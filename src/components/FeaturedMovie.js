@@ -43,7 +43,6 @@ export default ({ item }) => {
             <div className="featured--seasons">{`${item.number_of_seasons} ${plural}`}</div>
             <div className="featured--description">{description}</div>
             <div className="featured--buttons">
-              // eslint-disable-next-line react/prop-types
               <a href={`/watch/${item.id}`} className="featured--watchbutton">► Assistir</a>
               <a href={`/list/add/${item.id}`} className="featured--mylistbutton">+ Minha Lista</a>
             </div>
